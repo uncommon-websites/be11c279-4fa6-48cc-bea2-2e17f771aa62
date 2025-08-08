@@ -10,7 +10,7 @@
 </script>
 
 <CustomerCardHero
-	title="Harvey transforms legal work with domain-specific AI"
+	title="Legalo transforms legal work with domain-specific AI"
 	subtitle="Trusted by 40+ Am Law 100 firms and 54,000+ lawyers worldwide to handle 35% more cases while reducing manual effort by 80%."
 	centered={true}
 	customers={[
@@ -43,17 +43,19 @@
 />
 <LogoScroller
 	label="Trusted by industry leaders"
+	mode="light"
+
 	logoUrls={[
 		'https://cdn.brandfetch.io/microsoft.com/w/400/h/400/logo',
 		'https://cdn.brandfetch.io/jpmorgan.com/w/400/h/400/logo',
 		'https://cdn.brandfetch.io/pwc.com/w/400/h/400/logo',
-		'https://cdn.brandfetch.io/deloitte.com/w/400/h/400/logo'
+		'https://cdn.brandfetch.io/kirkland.com/w/400/h/400/logo'
 	]}
 />
 
 <Summary
 	title="Built for legal excellence"
-	text="Harvey transforms complex legal workflows with domain-specific AI models built by former O'Melveny attorneys and DeepMind researchers. We serve Fortune 500 legal departments and Am Law 100 firms who need to handle increasing case volumes without compromising quality or security. Our platform enables lawyers to manage 35% more cases while reducing manual document review by 80%, freeing legal professionals to focus on strategic, high-value work."
+	text="Legalo transforms complex legal workflows with domain-specific AI models built by former O'Melveny attorneys and DeepMind researchers. We serve Fortune 500 legal departments and Am Law 100 firms who need to handle increasing case volumes without compromising quality or security. Our platform enables lawyers to manage 35% more cases while reducing manual document review by 80%, freeing legal professionals to focus on strategic, high-value work."
 />
 
 <Testimonials
@@ -63,7 +65,7 @@
 			position: "General Counsel",
 			company: "Apex Financial Group",
 			quote:
-				"Harvey reduced our contract review time from weeks to hours. We're now handling 40% more cases with the same team size, and our risk exposure has decreased significantly thanks to their citation-linked analysis that catches issues we might have missed.",
+				"Legalo reduced our contract review time from weeks to hours. We're now handling 40% more cases with the same team size, and our risk exposure has decreased significantly thanks to their citation-linked analysis that catches issues we might have missed.",
 			image: "/generated/image-a-professional-female-general-counsel-po.webp"
 		},
 		{
@@ -71,7 +73,7 @@
 			position: "Senior Partner",
 			company: "Sterling & Associates",
 			quote:
-				"The ROI was immediate. Harvey's document analysis capabilities saved us $2.3M in the first year by identifying key contract terms 97% faster than manual review. Our junior associates can now focus on strategic work instead of document processing.",
+				"The ROI was immediate. Legalo's document analysis capabilities saved us $2.3M in the first year by identifying key contract terms 97% faster than manual review. Our junior associates can now focus on strategic work instead of document processing.",
 			image: "/generated/image-a-distinguished-male-senior-partner-posi.webp"
 		},
 		{
@@ -79,7 +81,7 @@
 			position: "Chief Legal Officer",
 			company: "TechCorp Industries",
 			quote:
-				"Harvey's single-tenant architecture gave us the security confidence we needed for our most sensitive matters. We've eliminated 80% of manual document review while maintaining full compliance with our data residency requirements across 12 countries.",
+				"Legalo's single-tenant architecture gave us the security confidence we needed for our most sensitive matters. We've eliminated 80% of manual document review while maintaining full compliance with our data residency requirements across 12 countries.",
 			image: "/generated/image-a-confident-female-chief-legal-officer-s.webp"
 		}
 	]}
@@ -119,7 +121,7 @@
 <CallToAction
 	title="Stop pushing paper. Start practicing law."
 	subtitle="Transform your legal practice today"
-	description="Harvey helps your legal team handle 35% more cases by reducing manual review time by 80%. Built by former litigators and DeepMind researchers, Harvey is trusted by 40 of the Am Law 100 and runs in a secure, single-tenant environment with full SOC-2 certification."
+	description="Legalo helps your legal team handle 35% more cases by reducing manual review time by 80%. Built by former litigators and DeepMind researchers, Legalo is trusted by 40 of the Am Law 100 and runs in a secure, single-tenant environment with full SOC-2 certification."
 	imageSrc="/generated/image-a-successful-general-counsel-at-a-modern.webp"
 	callsToAction={[
 		{

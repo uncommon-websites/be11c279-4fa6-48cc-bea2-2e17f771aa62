@@ -6,7 +6,7 @@
 - [x] Examine current +page.svelte structure
 - [x] Examine CustomerCardHero component structure
 - [x] Generate 4-5 professional customer images for legal professionals
-- [x] Update CustomerCardHero component with Harvey-specific copy
+- [x] Update CustomerCardHero component with Legalo-specific copy
 - [x] Import and implement CustomerCardHero in +page.svelte with centered=true prop
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values
 - [x] Call update_brand_variables to generate Harvey's brand variables

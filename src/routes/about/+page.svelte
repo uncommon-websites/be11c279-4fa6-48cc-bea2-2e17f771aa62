@@ -46,9 +46,9 @@
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"Harvey was founded by Winston Weinberg, a former litigator at O'Melveny, and Gabe Pereyra, a research scientist from DeepMind, who both saw firsthand how much of legal work was broken. Winston spent hours buried in repetitive, manual review. Gabe knew AI could handle complexity—but trusted, secure deployment was a must. Together, they built Harvey to make legal work faster, more accurate, and less tedious—starting with the pain points they knew best.",
-		"Instead of general-purpose tools that guess at answers, Harvey trains domain-specific models that understand legal nuance. Built in partnership with firms and legal researchers, its workflows adapt to each matter type—from litigation to regulatory. And with a single-tenant, SOC 2–certified deployment model, Harvey answers the data privacy questions that matter most to legal teams. That's why it's trusted by over 40 Am Law 100 firms and embedded throughout Fortune 500 legal departments.",
-		"More than 54,000 lawyers now use Harvey to turn complex processes into fast, auditable workflows. General counsels gain visibility, accuracy, and speed—clients get better results. With a global footprint, co-built models for tax and compliance, and deep integrations across the legal tech ecosystem, Harvey is reshaping how legal teams work. Because no one got into law to chase footnotes."
+		"Legalo was founded by Winston Weinberg, a former litigator at O'Melveny, and Gabe Pereyra, a research scientist from DeepMind, who both saw firsthand how much of legal work was broken. Winston spent hours buried in repetitive, manual review. Gabe knew AI could handle complexity—but trusted, secure deployment was a must. Together, they built Legalo to make legal work faster, more accurate, and less tedious—starting with the pain points they knew best.",
+		"Instead of general-purpose tools that guess at answers, Legalo trains domain-specific models that understand legal nuance. Built in partnership with firms and legal researchers, its workflows adapt to each matter type—from litigation to regulatory. And with a single-tenant, SOC 2–certified deployment model, Legalo answers the data privacy questions that matter most to legal teams. That's why it's trusted by over 40 Am Law 100 firms and embedded throughout Fortune 500 legal departments.",
+		"More than 54,000 lawyers now use Legalo to turn complex processes into fast, auditable workflows. General counsels gain visibility, accuracy, and speed—clients get better results. With a global footprint, co-built models for tax and compliance, and deep integrations across the legal tech ecosystem, Legalo is reshaping how legal teams work. Because no one got into law to chase footnotes."
 	]}
 />
 
@@ -107,8 +107,8 @@
 <!-- CTA Section -->
 <CallToAction
 	title="Ready to transform your legal work?"
-	subtitle="Join 54,000+ lawyers already using Harvey"
-	description="Experience the power of domain-specific AI built for legal professionals. See how Harvey can help your team handle 35% more cases while reducing manual effort by 80%."
+	subtitle="Join 54,000+ lawyers already using Legalo"
+	description="Experience the power of domain-specific AI built for legal professionals. See how Legalo can help your team handle 35% more cases while reducing manual effort by 80%."
 	imageSrc="/generated/image-a-diverse-legal-team-engaged-in-a-lively.webp"
 	callsToAction={[
 		{
