@@ -6,16 +6,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	title="Harvey transforms legal work with domain-specific AI"
+	subtitle="Trusted by 40+ Am Law 100 firms and 54,000+ lawyers worldwide to handle 35% more cases while reducing manual effort by 80%."
+	centered={true}
+	customers={[
+		{
+			name: "Sarah Chen",
+			position: "General Counsel, Fortune 500 Technology Company",
+			imageSrc: "/generated/image-a-professional-female-general-counsel-si.webp"
+		},
+		{
+			name: "Michael Rodriguez",
+			position: "Senior Partner, Am Law 100 Firm",
+			imageSrc: "/generated/image-a-distinguished-male-senior-partner-stan.webp"
+		},
+		{
+			name: "Emily Thompson",
+			position: "Chief Legal Officer, Global Financial Services",
+			imageSrc: "/generated/image-a-professional-female-lawyer-standing-ne.webp"
+		},
+		{
+			name: "David Park",
+			position: "Legal Director, Multinational Corporation",
+			imageSrc: "/generated/image-a-confident-male-legal-director-sitting-.webp"
+		},
+		{
+			name: "Jessica Williams",
+			position: "General Counsel, Healthcare Enterprise",
+			imageSrc: "/generated/image-a-professional-female-chief-legal-office.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/microsoft.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/jpmorgan.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/pwc.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/deloitte.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
