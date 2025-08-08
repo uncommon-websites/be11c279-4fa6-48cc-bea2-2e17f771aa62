@@ -1,13 +1,14 @@
 <!--
 @component AboutTeaser
-A minimalist teaser for the about page.
+A compelling founder story teaser that builds personal connection and company credibility.
 -->
 <script lang="ts">
 	// Types
-	type TeamMember = {
+	type Founder = {
 		name: string;
 		role: string;
 		image: string;
+		quote: string;
 	};
 
 	// Components
@@ -19,35 +20,39 @@ A minimalist teaser for the about page.
 
 	let props = $props();
 
-	// Data
-	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+	// Data - Winston Weinberg as the primary founder for the story
+	const founder: Founder = {
+		name: "Winston Weinberg",
+		role: "CEO & Co-Founder",
+		image: "/generated/image-a-professional-male-ceo-dressed-in-a-tai.webp",
+		quote: "After years at O'Melveny, I watched brilliant lawyers spend 60% of their time on document review instead of strategic counsel. That's not why we got into law. Harvey exists because every lawyer deserves to focus on what they do best: solving complex problems that actually matter."
 	};
 </script>
 
 <section bind:this={sectionRef} {...props}>
 	<div class="section-px section-py container mx-auto">
-		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
+		<div class="relative mx-auto grid max-w-4xl place-items-center gap-16">
 			<ScrollText
-				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				class="text-title1 text-center leading-tight"
+				text={`"${founder.quote}"`}
 			/>
 
-			<!-- Team Member & CTA Section -->
-			<div class="grid items-center gap-8 dark:border-gray-800">
-				<div class="flex items-center justify-start gap-4">
+			<!-- Founder Attribution & CTA Section -->
+			<div class="grid items-center gap-8">
+				<div class="flex items-center justify-center gap-6">
 					<img
-						src={teamMember.image}
-						alt={teamMember.name}
-						class="size-12 rounded-full object-cover"
+						src={founder.image}
+						alt={founder.name}
+						class="size-16 rounded-full object-cover"
 					/>
-					<div>
-						<div class="text-callout">{teamMember.name}</div>
-						<div class="text-caption text-emphasis-low">{teamMember.role}</div>
+					<div class="text-left">
+						<div class="text-callout font-medium">{founder.name}</div>
+						<div class="text-caption text-muted-foreground">{founder.role}</div>
+						<div class="text-caption text-muted-foreground mt-1">Former Litigation Attorney, O'Melveny</div>
 					</div>
-					<Button href="/about" variant="secondary" size="sm" class="ml-8">Read more</Button>
+					<Button href="/about" variant="primary" size="md" class="ml-8">
+						Our story
+					</Button>
 				</div>
 			</div>
 		</div>

@@ -11,94 +11,115 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Legal expertise first",
+			description: "Founded by lawyers who lived the pain of manual legal work. Every feature is built with deep understanding of legal workflows and the stakes involved."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Enterprise-grade security",
+			description: "SOC 2-certified, single-tenant architecture with data residency controls. Your privileged information never leaves your VPC."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Domain precision",
+			description: "Purpose-built AI models trained specifically for legal work. Not general-purpose tools adapted for law—real solutions for real legal problems."
+		},
+		{
+			title: "Global reach, local precision",
+			description: "Operating in 54+ countries with multi-language support and regional data compliance. Scale globally while meeting local requirements."
+		},
+		{
+			title: "Partnership-driven innovation",
+			description: "Co-built with leading law firms and enterprises. Strategic alliances with LexisNexis, Microsoft, and foundational model providers."
+		},
+		{
+			title: "Measurable impact",
+			description: "97% accuracy on key extractions. 35% more cases handled. 80% reduction in manual effort. Results that matter to your bottom line."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="AI built for legal work"
+	subtitle="Serious speed, without compromise"
+	imageSrc="/generated/image-a-group-of-four-diverse-legal-profession.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Harvey was founded by Winston Weinberg, a former litigator at O'Melveny, and Gabe Pereyra, a research scientist from DeepMind, who both saw firsthand how much of legal work was broken. Winston spent hours buried in repetitive, manual review. Gabe knew AI could handle complexity—but trusted, secure deployment was a must. Together, they built Harvey to make legal work faster, more accurate, and less tedious—starting with the pain points they knew best.",
+		"Instead of general-purpose tools that guess at answers, Harvey trains domain-specific models that understand legal nuance. Built in partnership with firms and legal researchers, its workflows adapt to each matter type—from litigation to regulatory. And with a single-tenant, SOC 2–certified deployment model, Harvey answers the data privacy questions that matter most to legal teams. That's why it's trusted by over 40 Am Law 100 firms and embedded throughout Fortune 500 legal departments.",
+		"More than 54,000 lawyers now use Harvey to turn complex processes into fast, auditable workflows. General counsels gain visibility, accuracy, and speed—clients get better results. With a global footprint, co-built models for tax and compliance, and deep integrations across the legal tech ecosystem, Harvey is reshaping how legal teams work. Because no one got into law to chase footnotes."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Leadership"
+	subtitle="Legal expertise meets AI innovation"
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Winston Weinberg",
+			position: "CEO & Co-Founder",
+			bio: "Winston experienced the frustrations of manual legal work during litigation at O'Melveny, giving him deep insight into where AI can transform legal practice.",
+			image: "/generated/image-a-professional-headshot-of-a-business-ex.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Gabe Pereyra",
+			position: "President & Co-Founder",
+			bio: "Gabe experienced the cutting-edge of AI research at DeepMind, understanding both the technical possibilities and limitations of AI systems.",
+			image: "/generated/image-a-professional-headshot-of-a-business-ex.webp"
 		}
 	]}
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
+	title="Backed by the best"
+	subtitle="$300M Series D led by Sequoia Capital"
 	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
 		{
 			name: "Sequoia Capital",
 			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+		},
+		{
+			name: "OpenAI Startup Fund",
+			image: "https://logo.clearbit.com/openai.com"
+		},
+		{
+			name: "Kleiner Perkins",
+			image: "https://logo.clearbit.com/kleinerperkins.com"
+		},
+		{
+			name: "GV (Google Ventures)",
+			image: "https://logo.clearbit.com/gv.com"
+		},
+		{
+			name: "Conviction Partners",
+			image: "https://logo.clearbit.com/conviction.vc"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to transform your legal work?"
+	subtitle="Join 54,000+ lawyers already using Harvey"
+	description="Experience the power of domain-specific AI built for legal professionals. See how Harvey can help your team handle 35% more cases while reducing manual effort by 80%."
+	imageSrc="/generated/image-a-diverse-legal-team-engaged-in-a-lively.webp"
+	callsToAction={[
+		{
+			href: "/",
+			label: "Request demo",
+			variant: "primary"
+		},
+		{
+			href: "/",
+			label: "Talk to sales",
+			variant: "secondary"
+		}
+	]}
 />

@@ -52,62 +52,85 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Built for legal excellence"
+	text="Harvey transforms complex legal workflows with domain-specific AI models built by former O'Melveny attorneys and DeepMind researchers. We serve Fortune 500 legal departments and Am Law 100 firms who need to handle increasing case volumes without compromising quality or security. Our platform enables lawyers to manage 35% more cases while reducing manual document review by 80%, freeing legal professionals to focus on strategic, high-value work."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Victoria Martinez",
+			position: "General Counsel",
+			company: "Apex Financial Group",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Harvey reduced our contract review time from weeks to hours. We're now handling 40% more cases with the same team size, and our risk exposure has decreased significantly thanks to their citation-linked analysis that catches issues we might have missed.",
+			image: "/generated/image-a-professional-female-general-counsel-po.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Robert Chen",
+			position: "Senior Partner",
+			company: "Sterling & Associates",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The ROI was immediate. Harvey's document analysis capabilities saved us $2.3M in the first year by identifying key contract terms 97% faster than manual review. Our junior associates can now focus on strategic work instead of document processing.",
+			image: "/generated/image-a-distinguished-male-senior-partner-posi.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Amanda Foster",
+			position: "Chief Legal Officer",
+			company: "TechCorp Industries",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Harvey's single-tenant architecture gave us the security confidence we needed for our most sensitive matters. We've eliminated 80% of manual document review while maintaining full compliance with our data residency requirements across 12 countries.",
+			image: "/generated/image-a-confident-female-chief-legal-officer-s.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Intelligent legal AI that scales with your practice"
+	subtitle="Transform complex legal workflows with domain-specific AI models that understand the nuances of legal work"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Document review automation",
+			description: "Reduce manual document review time by 80% with AI models trained specifically for legal analysis and contract examination."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Enhanced case capacity",
+			description: "Handle 35% more cases without increasing headcount by automating repetitive legal tasks and streamlining complex workflows."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Enterprise-grade security",
+			description: "Protect privileged client data with SOC-2 certified architecture, single-tenant deployment, and all files kept within your firm's VPC."
+		},
+		{
+			title: "Domain-specific intelligence",
+			description: "Leverage AI models built by former O'Melveny attorneys and DeepMind researchers who understand both legal practice and cutting-edge AI."
+		},
+		{
+			title: "Workflow automation",
+			description: "Design and deploy custom AI workflows that adapt to your firm's specific processes and practice areas."
+		},
+		{
+			title: "Global legal research",
+			description: "Access comprehensive legal research across 54+ countries with citation-linked answers sourced from primary-law databases."
 		}
 	]}
 />
 <AboutTeaser generating />
-<CallToAction generating />
+<CallToAction
+	title="Stop pushing paper. Start practicing law."
+	subtitle="Transform your legal practice today"
+	description="Harvey helps your legal team handle 35% more cases by reducing manual review time by 80%. Built by former litigators and DeepMind researchers, Harvey is trusted by 40 of the Am Law 100 and runs in a secure, single-tenant environment with full SOC-2 certification."
+	imageSrc="/generated/image-a-successful-general-counsel-at-a-modern.webp"
+	callsToAction={[
+		{
+			href: "#demo",
+			label: "Book a demo",
+			variant: "primary"
+		},
+		{
+			href: "#contact",
+			label: "Talk to sales",
+			variant: "secondary"
+		}
+	]}
+/>
