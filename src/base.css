@@ -290,3 +290,22 @@
 		}
 	}
 }
+
+@utility no-scrollbar {
+	scrollbar-width: none;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+.no-scrollbar {
+	scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+* {
+	@apply no-scrollbar;
+}
