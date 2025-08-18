@@ -1,9 +1,9 @@
 export const CONFIG = {
-	companyName: "Legalo",
+	companyName: "Counselor",
 	description:
-		"Legalo delivers faster legal work by leveraging domain-specific AI models that transform complex professional tasks into streamlined workflows, enabling lawyers to handle 35% more cases while reducing manual effort by 80%.",
+		"Counselor delivers faster legal work by leveraging domain-specific AI models that transform complex professional tasks into streamlined workflows, enabling lawyers to handle 35% more cases while reducing manual effort by 80%.",
 	image: "/og.png",
-	url: "https://Legalo.ai",
+	url: "https://Counselor.ai",
 	fontFamily: "Inter Variable",
 	tagline: "Faster legal work through domain-specific AI",
 	industry: "Legal Technology",
