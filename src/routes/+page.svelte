@@ -10,7 +10,7 @@
 </script>
 
 <CustomerCardHero
-	title="Legalo transforms legal work with domain-specific AI"
+	title="Draft less. Sign more."
 	subtitle="Trusted by 40+ Am Law 100 firms and 54,000+ lawyers worldwide to handle 35% more cases while reducing manual effort by 80%."
 	centered={false}
 	customers={[
