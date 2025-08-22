@@ -65,7 +65,7 @@
 			position: "General Counsel",
 			company: "Apex Financial Group",
 			quote:
-				"Legalo reduced our contract review time from weeks to hours. We're now handling 40% more cases with the same team size, and our risk exposure has decreased significantly thanks to their citation-linked analysis that catches issues we might have missed.",
+				"Legalo reduced our contract review time from weeks to hours.",
 			image: "/generated/image-a-professional-female-general-counsel-po.webp"
 		},
 		{
@@ -73,7 +73,7 @@
 			position: "Senior Partner",
 			company: "Sterling & Associates",
 			quote:
-				"The ROI was immediate. Legalo's document analysis capabilities saved us $2.3M in the first year by identifying key contract terms 97% faster than manual review. Our junior associates can now focus on strategic work instead of document processing.",
+				"Legalo saved us $2.3M in the first year with 97% faster contract analysis.",
 			image: "/generated/image-a-distinguished-male-senior-partner-posi.webp"
 		},
 		{
@@ -81,7 +81,7 @@
 			position: "Chief Legal Officer",
 			company: "TechCorp Industries",
 			quote:
-				"Legalo's single-tenant architecture gave us the security confidence we needed for our most sensitive matters. We've eliminated 80% of manual document review while maintaining full compliance with our data residency requirements across 12 countries.",
+				"We've eliminated 80% of manual document review while maintaining full compliance.",
 			image: "/generated/image-a-confident-female-chief-legal-officer-s.webp"
 		}
 	]}
